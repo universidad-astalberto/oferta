@@ -1,0 +1,48 @@
+site_name: Oferta Académica UTPL
+site_url: https://universidad-astalberto.github.io/oferta/
+site_description: Catálogo de carreras y títulos académicos de la Universidad Técnica Particular de Loja, organizado por facultades.
+site_author: UTPL
+
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.tables
+
+nav:
+  - Inicio: index.md
+  - Facultades:
+    - Ciencias Económicas y Empresariales: ciencias-economicas.md
+    - Ciencias Exactas y Naturales: ciencias-exactas.md
+    - Ciencias del Comportamiento: ciencias-del-comportamiento.md
+    - Ciencias Sociales, Educación y Humanidades: ciencias-sociales.md
+    - Ciencias Jurídicas y Políticas: ciencias-juridicas.md
+    - Ingenierías y Arquitectura: ingenierias.md
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://www.utpl.edu.ec
+      name: Sitio oficial UTPL
