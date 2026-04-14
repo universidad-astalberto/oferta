@@ -40,9 +40,3 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
-
-extra:
-  social:
-    - icon: fontawesome/solid/globe
-      link: https://www.utpl.edu.ec
-      name: Sitio oficial UTPL
